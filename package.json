@@ -1,0 +1,28 @@
+{
+  "name": "apihub",
+  "version": "1.0.0",
+  "description": "Un API Gateway / Agregador de servicios construido con **NodeJS** y **Express** \r Este proyecto sirve como base modular para integrar múltiples APIs externas , aplicar buenas prácticas de\r arquitectura y escalar gradualmente agregando servicios y midldewares.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gera-BG/apiHUB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gera-BG/apiHUB/issues"
+  },
+  "homepage": "https://github.com/Gera-BG/apiHUB#readme",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.4"
+  }
+}
