@@ -2,9 +2,9 @@ name: Node CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   test:
@@ -25,3 +25,4 @@ jobs:
 
       - name: Ejecutar pruebas
         run: npm test
+
